@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <link rel="stylesheet" href="css/css-reset.css">
     <link rel="stylesheet" href="css/mainPage.css">
+    <link rel="stylesheet" href="css/adaptive.css">
     <link rel="shortcut icon" href="img/icon.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Доска объявлений</title>
@@ -16,17 +17,19 @@
     <header>
       <div class="container__header">
         <div class="header-buttons">
-          <div class="header-buttons__addAdvert">
-            <div class="header-buttons__addAdvert-button">
-              <input type="button" id="addAdvertButton" value="Новое объявление  +">
+          <div class="header-buttons__container">
+            <div class="header-buttons__signIn">
+              <div class="header-buttons__signIn-img">
+                <img class="img-svg" src="img/person.svg" alt="signIn-icon">
+              </div>
+              <div class="header-buttons__signIn-text">
+                <p>Войти</p>
+              </div>
             </div>
-          </div>
-          <div class="header-buttons__signIn">
-            <div class="header-buttons__signIn-img">
-              <img class="img-svg" src="img/person.svg" alt="signIn-icon">
-            </div>
-            <div class="header-buttons__signIn-text">
-              <p>Войти</p>
+            <div class="header-buttons__addAdvert">
+              <div class="header-buttons__addAdvert-button">
+                <input type="button" id="addAdvertButton" value="Новое объявление  +">
+              </div>
             </div>
           </div>
         </div>
