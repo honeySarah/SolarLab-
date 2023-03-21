@@ -1,26 +1,8 @@
-@font-face {
-    font-family: "InterBold";
-    font-style: normal;
-    font-weight: 800;
-    src: url("fonts/Inter-Bold.ttf") format("ttf"),
-}
-
-@font-face {
-    font-family: "Inter-Regular";
-    font-style: normal;
-    font-weight: 800;
-    src: url("fonts/Inter-Regular.ttf") format("ttf"),
-}
-
-@font-face {
-    font-family: "Inter-Light";
-    font-style: normal;
-    font-weight: 800;
-    src: url("fonts/Inter-Light.ttf") format("ttf"),
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
 
 body{
-    font-family: "InterBold", sans-serif;
+    font-family: 'Inter', 'Times', sans-serif;
+    font-weight: 400;
 }
 
 .container{
@@ -36,29 +18,35 @@ header{
     background-color: #1e293b ;
 }
 
-.header-block{
+.header-buttons{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+
   height: 100%;
 }
 
-.header-signIn{
+.header-buttons__signIn{
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-right: 24px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 0;
-  color: #fff;
   text-decoration: none;
+
+  color: #fff;
 }
 
-.header-licting{
+.header-buttons__listing{
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
 }
