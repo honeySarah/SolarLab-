@@ -9,7 +9,8 @@
     >
         {{isVisible? 'Hide info' : 'Show info'}}
     </button>
-
+    <p>Publisher: {{book.publisher}}</p>
     <p>Author: {{book.author}}</p>
+    <p *ngIf="isVisible">Genre: {{book.genre}}</p>
     <p *ngIf="isVisible">{{book.description}}</p>
 </div>
