@@ -10,6 +10,8 @@ export class BookComponent {
 
   @Input() book!: IBook
 
+  isVisible = false;
+
 }
 
 

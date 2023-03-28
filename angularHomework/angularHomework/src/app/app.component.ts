@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { books as data} from './data/book';
+import { BooksService } from './data/books.service';
 import { IBook } from './interface/book';
 
 @Component({
@@ -7,8 +8,7 @@ import { IBook } from './interface/book';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent{
   title = 'angularHomework';
 
-  books: IBook[] = data
 }

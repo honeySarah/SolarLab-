@@ -4,7 +4,11 @@
     justify-content: center;
     align-items: center;
     padding: 25px 15px;
-    border: 1px solid palevioletredpink;
+    margin: 5px 0;
+    border: 1px solid palevioletred;
     border-radius: 8px;
     background-color: pink;
+    img{
+        width: 150px;
+    }
 }
